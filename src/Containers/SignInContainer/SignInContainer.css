@@ -1,0 +1,25 @@
+.modalWrap{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+.signInTitle{margin: 0;padding: 0 0 10px}
+.signInWrapper {
+    width: 340px;
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    margin: 15% auto;
+    box-sizing: border-box;
+}
+.close-modal{
+    position: absolute;
+    top:20px;
+    right:20px;
+    cursor: pointer;
+}
